@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header a {
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.productos_container {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  gap: 25px;
+}
+
+.producto_card {
+  max-width: 250px;
+  height: 300px;
+  border: 1px solid red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.producto_card img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.producto_card a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li img {
+  width: 50px;
+}
+
+.menu {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+}
+
+.bx {
+  color: red;
+  font-size: 24px;
+}

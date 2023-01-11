@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <title>Dom,Carrito</title>
+  </head>
+  <body>
+    <header class="header"><h1>Bienvenido a la Tienda</h1></header>
+
+    <main class="hero">
+      <h2>Carrito</h2>
+      <div id="carritoContainer"></div>
+    </main>
+    <div id="total"></div>
+    <div class="menu">
+      <a href="../index.html" id="volver">Volver</a>
+      <a href="#" id="finalizarCompra">Finalizar Compra</a>
+    </div>
+    <div id="divProductos" class="row"></div>
+
+    <script src="../carrito.js"></script>
+    <script src="../productos.json"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
